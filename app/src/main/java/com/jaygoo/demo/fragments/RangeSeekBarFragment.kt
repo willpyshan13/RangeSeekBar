@@ -62,8 +62,8 @@ class RangeSeekBarFragment: BaseFragment() {
 
 		sb_range_2?.setProgress(0f, 100f)
 
-		sb_range_3?.setRange(-100f, 100f)
-		sb_range_3?.setProgress(0f, 80f)
+		sb_range_3?.setRange(0f, 1000f)
+		sb_range_3?.setProgress(0f, 1000f)
 		sb_range_3?.setIndicatorTextDecimalFormat("0")
 
 		sb_range_4?.setProgress(20f, 70f)
